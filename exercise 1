@@ -1,0 +1,102 @@
+pseudocode challenge
+
+1. Newton Second Law
+
+ΣF = m * a
+
+STORE "m" with 600
+
+STORE "a" 2
+
+STORE "ΣF" without any value
+
+CALCULATE "m" times "a"
+
+SET "ΣF" value with calculation result
+
+DISPLAY "ΣF"
+
+
+
+2. Tahun Kabisat
+
+Algortima:
+
+1. Jika tahun habis di bagi 4 dan tidak habis di bagi 100 merupakan tahun kabisat
+
+2. Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400 merupakan tahun kabisat
+
+3. Jika tahun tidak habis di bagi 4, tidak habis di bagi 400, dan tidak habis di bagi 100 bukan   tahun kabisat
+
+
+pseudocode:
+
+STORE "tahun" to any number
+
+IF "tahun" %4 = 0
+
+DO "kabisat"
+
+ELSE IF "tahun" %100 = 0 and "tahun" %400 = 0
+
+DO "kabisat"
+
+ELSE "tahun" ≠ 100
+
+DO "bukan kabisat"
+
+
+
+3. Laundry Day
+
+Foxie akan mencuci pakaiannya menggunakan mesin cuci. Pakaian yang akan dicuci oleh Foxie sebanyak 20 dan akan dimasukkan ke mesin cuci. Mesin cuci akan dinyalakan jika semua pakaian Foxie sudah masuk ke mesin cuci.
+
+algoritma:
+1. Simpan jumlah kain dengan angka 0
+
+2. Ulangi step 3 selama "jumlah kain" masih di bawah 20. Jika "jumlah kain" sudah =>20, lanjut ke step 4
+
+3. Tambah "jumlah kain" dengan 1 agar mendekati angka 20, ulangi step 2
+
+4. Tampilkan "mesin cuci menyala", berarti jumlah baju sudah 20 di dalam mesin cuci
+
+
+pseudocode:
+STORE "jumlah kain" with 0
+
+WHILE "jumlah kain" <20
+     ADD "jumlah kain" by 1
+
+WHILE "jumlah kain" >=20
+     DO " cuci baju"
+
+DISPLAY "mesin cuci menyala"
+
+
+
+4. Periksa Kuku
+
+algoritma:
+1. Guru akan memeriksa kuku siswa-siswinya yang sebanyak 40 orang.
+2. Jika guru menemukan siswa/siswi yang memiliki kuku yang panjang maka guru akan menghukum siswa/siswi tersebut
+3. jika guru menemukan siswa/siswi yang memiliki kuku yang  pendek maka guru akan memuji siswa/siswi tersebut
+
+
+pseudocode:
+STORE "panjang kuku" without any value
+
+STORE "jumlah murid" to 1
+
+    WHILE  "jumlah murid" <41
+           ADD "jumlah murid" by 1
+
+    IF "panjang kuku" >1
+        DO "panjang"
+    ELSE "panjang kuku" =<1
+        DO "pendek"
+
+   CALCULATE "panjang kuku" 
+
+DISPLAY "menghukum!"
+   ELSE 
+DISPLAY "memuji!"

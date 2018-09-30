@@ -1,2 +1,2 @@
-# h8-p0-w2
-exercise week
+# tugas-week-2
+tugas codecademy week 2
